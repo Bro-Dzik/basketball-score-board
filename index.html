@@ -1,25 +1,30 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
+        <title>ScoreBoard</title>
     </head>
     <body>
         <div class="container">
             <div>
                 <h3>HOME</h3>
                 <p id="hp-el">0</p>
-                <button onclick="homeone()">+1</button>
-                <button onclick="hometwo()">+2</button>
-                <button onclick="homethree()">+3</button>
+                <button id="oneh-btn">+1</button>
+                <button id="twoh-btn">+2</button>
+                <button id="threeh-btn">+3</button>
             </div>
             <div>
-                 <button id= "new" onclick="newgame()" >NEW GAME</button>
+                 <button id= "new">NEW GAME</button>
             </div>  
             <div>
                 <h3>AWAY</h3>
                  <p id="gp-el" >0</p>
-                <button onclick="guestone()" >+1</button>
-                <button onclick="guesttwo()">+2</button>
-                <button onclick="guestthree()">+3</button>
+                <button id="oneg-btn">+1</button>
+                <button id="twog-btn">+2</button>
+                <button id="threeg-btn">+3</button>
             </div>
            
         </div>
